@@ -14,6 +14,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ContactPartnersComponent } from './components/contact-partners/contact-partners.component';
 import { InvestorsComponent } from './components/investors/investors.component';
 import { OurProjectsComponent } from './components/our-projects/our-projects.component';
+import { CareersComponent } from './components/careers/careers.component';
+import { GroceryComponent } from './components/grocery/grocery.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { OurProjectsComponent } from './components/our-projects/our-projects.com
     ContactPartnersComponent,
     InvestorsComponent,
     OurProjectsComponent,
+    CareersComponent,
+    GroceryComponent,
   ],
   imports: [
     BrowserModule,

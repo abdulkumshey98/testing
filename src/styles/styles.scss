@@ -543,7 +543,73 @@ body,a,h3 {
   font-size: 10pt;
 }
 
+.c-news-color {
+  background-color: #071e3d;
+  height: 60px;
+}
 
+.news-uigrid {
+  background-color: #f0eff1;
+  top: 100px;
+}
+
+.news-uigrid>img {
+  width: 75%;
+  border-radius: 16px;
+}
+
+.news-uititle {
+  font-size: 34pt;
+  font-weight: 600;
+  color: #071e3d;
+  text-align: center;
+  width: 60%;
+}
+
+.investment-products {
+  background-color: #071e3d;
+}
+
+.project-heading {
+  font-size: 34pt;
+  color: white;
+  font-family: 'Playfair Display', sans-serif !important;
+  font-style: italic;
+}
+
+.project-details {
+  font-size: 12pt;
+  color: white;
+}
+
+.project-dotnav>li>a {
+  background-color: white;
+  width: 15px;
+  border-radius: 2px;
+  height: 3px;
+}
+
+.project-dotnav>li.uk-active>a, .project-dotnav>li:hover>a {
+  background-color: #482ff7 !important;
+  width: 20px;
+}
+
+.career-container {
+  background-color: #071e3d;
+}
+
+.career-title {
+  font-size: 32pt;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.career-subtitle {
+  font-size: 11pt;
+  text-align: center;
+  color: white;
+}
 
 @media only screen and (max-width:1090px) {
   .navbar>div>ul {
