@@ -10,6 +10,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
 import { WebDevelopmentComponent } from './components/web-development/web-development.component';
 import { AppDevelopmentComponent } from './components/app-development/app-development.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactPartnersComponent } from './components/contact-partners/contact-partners.component';
+import { InvestorsComponent } from './components/investors/investors.component';
+import { OurProjectsComponent } from './components/our-projects/our-projects.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { AppDevelopmentComponent } from './components/app-development/app-develo
     FooterComponent,
     OurServicesComponent,
     WebDevelopmentComponent,
-    AppDevelopmentComponent
+    AppDevelopmentComponent,
+    ContactComponent,
+    ContactPartnersComponent,
+    InvestorsComponent,
+    OurProjectsComponent,
   ],
   imports: [
     BrowserModule,
