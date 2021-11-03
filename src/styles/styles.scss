@@ -8,11 +8,7 @@
 @import 'material-icons/iconfont/material-icons.css';
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 body,
@@ -582,6 +578,7 @@ h3 {
   color: white;
   font-family: 'Playfair Display', sans-serif !important;
   font-style: italic;
+  font-weight: 800;
 }
 
 .project-details {
@@ -688,6 +685,24 @@ h3 {
   color: #071e3d;
 }
 
+.grocery-ft-icon {
+  font-size: 30pt;
+  color: white;
+}
+
+.grocery-ft-heading {
+  font-size: 13pt;
+  color: white;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.grocery-icon-details {
+  font-size: 10pt;
+  color: white;
+  margin-top: 0px;
+}
+
 .about-container {
   background-color: white;
 }
@@ -703,7 +718,7 @@ h3 {
 
 .about-subheader {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: grey;
   width: 57%;
 }
@@ -733,6 +748,27 @@ h3 {
   width: 70%;
 }
 
+.aboutus-slider-title {
+  font-size: 26pt;
+  color: black;
+  text-align: center;
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+.aboutus-slider>li>div>img {
+  height: 170px;
+  border-radius: 8px;
+}
+
+.aboutus-industry-names {
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #071e3d;
+  border-radius: 4px;
+}
+
 .stats-number {
   font-size: 38pt;
   font-family: 'Playfair Display', sans-serif;
@@ -757,12 +793,19 @@ h3 {
   font-size: 28pt;
 }
 
+.whyus-details {
+  font-size: 12pt;
+  color: #071e3d;
+}
+
 .clients-title {
   font-size: 18pt;
-  color: #071e3d;
+  color: white;
   font-family: 'Playfair Display', sans-serif;
   text-align: center;
 }
+
+
 
 .category-container {
   background-color: #071e3d;
@@ -871,12 +914,12 @@ h3 {
 }
 
 .tech-container {
-  background-color: #e2f3f5;
+  background-color: #071e3d;
   padding: 10px !important;
 }
 
 .tech-grids {
- background-color: white;
+  background-color: white;
 }
 
 .web-techgrid {
@@ -893,9 +936,10 @@ h3 {
 }
 
 .service-title {
-  font-size: 18pt;
+  font-size: 22pt;
   font-family: 'Playfair Display', sans-serif !important;
   text-align: left;
+  font-weight: 700;
   color: #071e3d;
   margin-bottom: 10px;
 }
@@ -914,6 +958,31 @@ h3 {
   object-fit: cover;
 }
 
+.nb-grid {
+  background-color: #f1f1f148;
+  border-radius: 8px;
+  width: 16.66%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nb-grid>svg {
+  width: 110px;
+}
+
+.grocery-img {
+  border-radius: 16px;
+}
+
+.dark-background {
+  background-color: #071e3d;
+}
+
+
+
 @media only screen and (max-width:1100px) {
   .navbar>div>ul {
     display: none;
@@ -925,6 +994,10 @@ h3 {
 
   .investor-img-container {
     display: none;
+  }
+
+  .invest-container {
+    padding: 20px !important;
   }
 }
 
@@ -992,5 +1065,66 @@ h3 {
 
   .about-header {
     font-size: 24pt;
+  }
+
+  .investor-header {
+    font-size: 28pt;
+  }
+
+  .investor-subheader {
+    font-size: 10pt;
+  }
+
+  .news-uititle {
+    font-size: 22pt;
+    width: 90%;
+  }
+
+  .news-uigrid > img {
+    width: 90%;
+  }
+
+  .project-heading {
+    font-size: 22pt;
+  }
+
+  .grocery-container {
+    height: 190px;
+  }
+
+  .grocery-header {
+    font-size: 24pt;
+  }
+
+  .grocery-ft-title {
+    font-size: 18pt;
+  }
+
+  .grocery-ft-details {
+    font-size: 10pt;
+  }
+
+  .about-header {
+    font-size: 18pt;
+    width: 99%;
+    font-weight: 800;
+  }
+
+  .about-subheader {
+    font-size: 11pt;
+    width: 99%;
+  }
+
+  .aboutus-img {
+    height: 250px;
+  }
+
+  .aboutus-heading {
+    font-weight: 800;
+  }
+
+  .aboutus-details {
+    font-size: 12pt;
+    width: 100%;
   }
 }

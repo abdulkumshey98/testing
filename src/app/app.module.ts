@@ -19,6 +19,9 @@ import { GroceryComponent } from './components/grocery/grocery.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { AboutComponent } from './components/about/about.component';
 import { AllSvgsComponent } from './components/all-svgs/all-svgs.component';
+import { UiUxComponent } from './components/ui-ux/ui-ux.component';
+import { BrandingComponent } from './components/branding/branding.component';
+import { DigitalMarketingComponent } from './components/digital-marketing/digital-marketing.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import { AllSvgsComponent } from './components/all-svgs/all-svgs.component';
     BlogsComponent,
     AboutComponent,
     AllSvgsComponent,
+    UiUxComponent,
+    BrandingComponent,
+    DigitalMarketingComponent,
   ],
   imports: [
     BrowserModule,
