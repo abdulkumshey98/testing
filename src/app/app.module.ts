@@ -22,6 +22,7 @@ import { AllSvgsComponent } from './components/all-svgs/all-svgs.component';
 import { UiUxComponent } from './components/ui-ux/ui-ux.component';
 import { BrandingComponent } from './components/branding/branding.component';
 import { DigitalMarketingComponent } from './components/digital-marketing/digital-marketing.component';
+import { RetailIndustryComponent } from './components/retail-industry/retail-industry.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { DigitalMarketingComponent } from './components/digital-marketing/digita
     UiUxComponent,
     BrandingComponent,
     DigitalMarketingComponent,
+    RetailIndustryComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,4 +12,6 @@ export class IndexhomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  title = 'Xevello Rapid';
+
 }

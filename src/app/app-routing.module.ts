@@ -14,7 +14,7 @@ import { UiUxComponent } from './components/ui-ux/ui-ux.component';
 import { WebDevelopmentComponent } from './components/web-development/web-development.component';
 
 const routes: Routes = [
-  {path: '', component: IndexhomeComponent},
+  {path: '', component: IndexhomeComponent, data : {title: 'abdul here'}},
   {path: 'web-development', component: WebDevelopmentComponent},
   {path:'contact-us', component: ContactComponent},
   {path: 'investments', component: InvestorsComponent},
