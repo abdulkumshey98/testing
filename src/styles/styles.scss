@@ -42,7 +42,7 @@ h3 {
 }
 
 .header-logo>g>g>path {
-  fill: #071e3d !important  ;
+  fill: #071e3d !important;
 }
 
 .navbar>div>ul>li.uk-grocery>a {
@@ -74,7 +74,7 @@ h3 {
   height: 640px;
 }
 
-.home-header-img{
+.home-header-img {
   height: 640px;
   width: 100% !important;
   object-fit: cover;
@@ -97,7 +97,7 @@ h3 {
 .hslider-overlay_a {
   filter: opacity(50%);
   background-color: black;
-  
+
 }
 
 .hslider-title {
@@ -129,6 +129,12 @@ h3 {
   text-align: left;
   font-weight: 700;
   font-family: 'Playfair Display', sans-serif;
+}
+
+.secondary-title {
+  font-size: 18pt;
+  color: #071e3d;
+  text-align: center;
 }
 
 .default-container {
@@ -182,6 +188,10 @@ h3 {
   color: white !important;
 }
 
+.home-video {
+  height: 450px !important;
+}
+
 .home-solutions-heading {
   font-size: 42pt;
   color: #071e3d;
@@ -213,10 +223,13 @@ h3 {
 }
 
 .es-grid.es-1 {
-  background: #EB3349;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-radius: 6px;
+  background: #EB3349;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F45C43, #EB3349);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F45C43, #EB3349);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
 }
 
 
@@ -247,35 +260,23 @@ border-radius: 6px;
 }
 
 .es-grid.es-2 {
-  background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-radius: 6px;
+  background: #8E2DE2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
 }
 
 .es-grid.es-3 {
-  background: #00b09b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-radius: 6px;
-}
-
-
-.h_aboutus_title {
-  font-size: 18pt;
-  font-weight: 700;
-  color: black;
-  text-align: left;
-}
-
-.h_aboutus_details {
-  font-size: 11pt;
-  color: #e2f3f5;
-  text-align: left;
-}
-
-.h_about_accord>li>a {
-  font-size: 12pt;
+  background: #00b09b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96c93d, #00b09b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
 }
 
 .about_accord_details {
@@ -314,10 +315,16 @@ border-radius: 6px;
 }
 
 .categories-title {
-  font-size: 18pt;
+  font-size: 20pt;
   color: black;
+  font-weight: 700;
   text-align: left;
   font-family: 'Playfair Display', sans-serif;
+}
+
+.categories-details {
+  font-size: 11pt;
+  color: black;
 }
 
 .contact-heading {
@@ -913,8 +920,6 @@ border-radius: 6px;
   text-align: center;
 }
 
-
-
 .category-container {
   background-color: #071e3d;
 }
@@ -924,8 +929,9 @@ border-radius: 6px;
 }
 
 .category-title {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: white;
+  font-weight: 600;
   margin: 0px;
 }
 
@@ -1172,7 +1178,7 @@ border-radius: 6px;
     margin-bottom: 3px;
   }
 
-  .home-solutions-subheading{
+  .home-solutions-subheading {
     font-size: 10pt;
     width: 85%;
     text-align: center;
@@ -1217,7 +1223,7 @@ border-radius: 6px;
     width: 90%;
   }
 
-  .news-uigrid > img {
+  .news-uigrid>img {
     width: 90%;
   }
 
